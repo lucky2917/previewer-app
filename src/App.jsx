@@ -4,7 +4,7 @@ import React, { Suspense, lazy } from 'react';
 // 1. Define all your templates.
 // The key ('iphone-15-pro') MUST match what you'll put in the database.
 const templates = {
-  'iphone-15-pro': lazy(() => import('/templates/Iphone15Pro')),
+  'iphone-15-pro': lazy(() => import('./templates/Iphone15Pro')),
   // When you add a new template, you'll add a new line here.
   // 'kinetic-portfolio': lazy(() => import('./templates/KineticPortfolio')),
 };
